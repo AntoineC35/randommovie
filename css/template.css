@@ -1,0 +1,53 @@
+
+* {
+	box-sizing: border-box; /* On spécifie que la largeur (width) de chaque boîte comprend le padding et la bordure (par défaut, c'est seulement la largeur du contenu) */
+}
+
+html {
+	font-size: 62.5%; /* 1rem = 10px (la formule est 10/16*100) la taille par défaut étant 16px */
+}
+
+body {
+	font-size: 1.6rem; /* on remets la taille du texte par défaut pour le body à 16px en utilisant les rem comme unité) */
+}
+
+    /******************
+        GENERALITIES
+    ******************/
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-family: sans-serif;
+	color: #555;
+	background-color: #eee;
+}
+
+    /******************
+        header
+    ******************/
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+}
+
+a{
+    text-decoration:none;
+}
+
+.logo-principal{
+    width: 20rem ;
+    hight: 20rem;
+}
+
+    /******************
+        FOOTER
+    ******************/
+
+.logo{
+    width: 20rem;
+    height: 20rem;
+}
