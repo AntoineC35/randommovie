@@ -26,28 +26,49 @@ body {
     /******************
         header
     ******************/
-.header{
+header{
+    background: #0b1c24;
+    color:white; 
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color:white;
+    justify-content:space-around;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    display:flex;
+    flex-direction:row;
+    align-item:center;
 }
 
 a{
     text-decoration:none;
+    color:white;
 }
 
-.logo-principal{
-    width: 20rem ;
-    hight: 20rem;
+.logo-header{
+    width:20rem ;
+    height:20rem;
+    border-radius:50%; 
+    padding-top:10px;
 }
 
     /******************
         FOOTER
     ******************/
-
-.logo{
-    width: 20rem;
-    height: 20rem;
+footer{
+     background: #0b1c24;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
+
+.logo-footer{
+    width:20rem;
+    height:20rem;
+    border-radius:20%; 
+} 
+
