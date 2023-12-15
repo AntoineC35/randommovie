@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: #555;
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardRandom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 4rem 4rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.posterMovie {
+    grid-area: 1 / 1 / 3 / 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movieTitle {
+    text-align: center;
+    grid-area: 1 / 2 / 2 / 3;
+    padding-top: 4rem;
+}
+
+.movieSynopsis {
+    text-align: center;
+    grid-area: 2 / 2 / 3 / 3;
+}

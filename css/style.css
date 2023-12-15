@@ -34,3 +34,7 @@ h2{
     position: relative;
     padding-top:5em;
 }
+
+img {
+    max-width: 250px;
+}
