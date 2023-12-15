@@ -1,4 +1,6 @@
-
+h2{
+    text-align:center;
+}
 .divCards {
     display: flex;
     justify-content: space-around;
@@ -9,13 +11,26 @@
     margin: 0 10px;
     text-align: center;
 }
-
 .trailer {
-    text-align: center;
+    display: flex;
+    flex-direction: column; /* Mettez le contenu en colonne */
+    align-items: center;
+    position: relative; /* Ajoutez cette ligne pour permettre le positionnement absolu */
 }
 
+.trailer h3 {
+    position: absolute;
+    top: 0; 
+    text-align: center;
+    width: 100%;
+
+}
 .mediaMovie {
-    width: 50%;
+    width: 100%;
     max-width: 634px;
     height: 294px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top:5em;
 }
