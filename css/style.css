@@ -1,0 +1,21 @@
+
+.divCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.cardMovie {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.trailer {
+    text-align: center;
+}
+
+.mediaMovie {
+    width: 50%;
+    max-width: 634px;
+    height: 294px;
+}

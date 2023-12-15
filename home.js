@@ -1,5 +1,5 @@
 function showMovie(){
-    const section =document.querySelector(".affiche")
+    const divCards = document.querySelector(".divCards")
     
     for (let i = 0; i < 4; i++) {
     
@@ -19,7 +19,7 @@ function showMovie(){
     newLink.appendChild(newBanner);
     newArticle.appendChild(newTitle);
     newArticle.appendChild(newLink);
-    section.appendChild(newArticle);
+    divCards.appendChild(newArticle);
 }
 }
 
@@ -31,4 +31,13 @@ function showTrailer(){
     
     const newArticle =document.createElement('article');
     newArticle.className="mediaMovie mediaMovie-js";
+    
+    const newVideo = document.createElement('iframe');
+    newVideo.src="https://www.youtube.com/embed/Cj-6AYzO2qo";
+    newVideo.width="834";
+    newVideo.height="494";
+    
+    newArticle.appendChild(newVideo);
+    section.appendChild(newArticle)
 }
+showTrailer()
